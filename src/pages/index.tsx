@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function App() {
   return (
@@ -32,10 +33,10 @@ export default function App() {
         <h2 style={{ textAlign: 'center', marginBottom: '2rem' }}>🔥 인기 유틸리티 Top 6</h2>
         <div style={gridStyle}>
           {tools.map((tool) => (
-            <a key={tool.href} href={tool.href} style={cardStyle}>
+            <Link key={tool.href} to={tool.href} style={cardStyle}>
               <h3 style={{ fontSize: '1.1rem', margin: '0.5rem 0' }}>{tool.title}</h3>
               <p>{tool.desc}</p>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
