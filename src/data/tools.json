@@ -1,1 +1,39 @@
+[
+  {
+    "href": "/charcount",
+    "title": "글자수 세기",
+    "desc": "문자 수, 단어 수를 빠르게 계산",
+    "category": "텍스트 도구"
+  },
+  {
+    "href": "/datecalc",
+    "title": "날짜 계산기",
+    "desc": "두 날짜 간의 차이 계산",
+    "category": "계산기"
+  },
+  {
+    "href": "/emoji-cleaner",
+    "title": "이모지 제거기",
+    "desc": "텍스트 내 이모지 자동 삭제",
+    "category": "텍스트 도구"
+  },
+  {
+    "href": "/case-toggle",
+    "title": "대소문자 변환기",
+    "desc": "대소문자 쉽게 변경",
+    "category": "텍스트 도구"
+  },
+  {
+    "href": "/json-formatter",
+    "title": "JSON 정렬기",
+    "desc": "JSON을 보기 좋게 포맷팅",
+    "category": "개발 도구"
+  },
+  {
+    "href": "/adsense-calc",
+    "title": "AdSense 수익 계산기",
+    "desc": "예상 광고 수익 간편 계산",
+    "category": "계산기"
+  }
+]
 
